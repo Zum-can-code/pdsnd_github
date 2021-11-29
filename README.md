@@ -12,7 +12,8 @@
 ### Files used
 * chicago.csv
 * new-york-city.csv
-* washington.csv 
+* washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+* While loops [Programiz](https://www.programiz.com/python-programming/while-loop)
+* If statements [w3 schools](https://www.w3schools.com/python/python_conditions.asp)
