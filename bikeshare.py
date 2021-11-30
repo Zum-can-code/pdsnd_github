@@ -92,10 +92,6 @@ def load_data(city, month, day):
         # filter by day of week to create the new dataframe
         df = df[df['day_of_week'] == day.title()]
 
-    #if city == 'washington':
-        #df['Gender'] = 'no gender data'
-        #df['Birth Year'] = 0
-
     return df
 
 
