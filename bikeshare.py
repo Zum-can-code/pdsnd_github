@@ -106,7 +106,7 @@ def time_stats(df):
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
-    time.sleep(3)
+    time.sleep(1)
 
     # TO DO: display the most common month
     mode_month = df['month'].mode().iloc[0]
@@ -134,7 +134,7 @@ def station_stats(df):
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
-    time.sleep(3)
+    time.sleep(1)
 
     #TO DO: display most commonly used start station
     mode_start = df['Start Station'].mode().iloc[0]
@@ -163,7 +163,7 @@ def trip_duration_stats(df):
 
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
-    time.sleep(3)
+    time.sleep(1)
 
     # TO DO: display total travel time
     total_tt_sec = df['Trip Duration'].sum()
@@ -192,7 +192,7 @@ def user_stats(df):
 
     print('\nCalculating User Stats...\n')
     start_time = time.time()
-    time.sleep(3)
+    time.sleep(1)
 
     # TO DO: Display counts of user types
     user_type_count = df['User Type'].value_counts()
